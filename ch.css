@@ -1,0 +1,388 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+    body{background-color: rgb(253, 255, 245);
+        position: relative;
+    display: flex;
+    flex-direction: column;
+background-color: rgb(236, 244, 245);}
+
+    .nav{display: flex;
+        align-items: center;
+    flex-direction: row;
+        justify-content: space-between;
+    height: 100px;
+    max-width: 100%;
+    }
+
+    .aa{text-decoration: none;
+        font-size: 25px;
+        color: rgb(117, 112, 112);}
+
+     #home{margin-bottom: 5px;
+    text-decoration-thickness: 8px;}
+
+     #home:hover{
+        text-decoration-color: purple;
+        text-decoration-line: underline;
+        line-height: 20px;
+}   
+
+
+    .firstbackground{position: absolute;
+        height: 650px;
+     z-index: -3;
+width :100%;
+right:1px;
+}
+     
+.divpic{max-width: 100%;}
+
+
+    .logo{width: 100px;
+    height: 100px;}
+
+    .dd{font-size: 15px;
+        padding: 20px;
+        margin: 20px;
+        }
+
+
+        .p1{position: absolute;
+        top: 35px;
+    right: 102px;
+    color: rgb(117, 112, 112);
+font-size: 25px;}
+    
+
+    .div1{display: flex;
+    align-items: center;
+justify-content: space-around;
+ margin: 10px;
+margin-left: 40px;}
+
+.div2{
+    margin: 20px;
+    margin-right: 60px;}
+
+    .div3{margin-top: 100px;
+margin-left: 100px;}
+
+.h11{color:rgb(65, 62, 62);
+font-size: 50px;
+margin-bottom: 15px;
+}
+
+#deliver{color: purple;
+}
+
+.p2{color: 
+    rgb(117, 112, 112);
+font-size: 28px;line-height: 40px;}
+
+.divlanding{position: absolute;
+top: 40px;
+right: 5px;
+height: 600px;
+width: 700px;
+z-index: -5;}
+
+.divmask{position: absolute;
+    top: 80px;
+    right: 280px;
+    height: 350px;
+    width: 250px;
+z-index: -3;
+filter:contrast(100%) ;}
+
+
+    .divcloud{position: absolute;
+        top: 380px;
+     
+        height: 150px;
+        width: 450px;
+z-index: -1;
+right:7%;
+;}
+
+
+
+.divwaves{
+    position: absolute;
+    top: 400px;
+    right:20%;
+    height: 350px;
+    max-width: 100%;
+z-index:-1;
+}
+
+.divmotor{ position: absolute;
+    top: 28%;
+    left:21%;
+    height: 200px;
+    width: 300px;
+z-index:-1;
+transition: all .3s ease-in;}
+
+.motor{position:absolute;
+    top: 40%;
+    left:18%;
+    height: 600px;
+z-index:-3;
+width: 430px;
+}
+
+
+.divmotor:hover{transform: scale(1.05);}
+
+.sect2{height:1800px;
+    max-width: 100%;
+display: flex;
+position: relative;
+}
+
+.h2{color: rgb(150, 143, 143);
+    line-height: 40px;
+margin-left: 60px;
+font-size: 35px;}
+
+.pp2{color: rgb(168, 164, 164); 
+text-align: center;
+font-size: 25px;}
+
+
+.link{max-width: 70%;
+height: 100vh;
+position: absolute;
+top: 20%;
+left: 28%;}
+
+
+.divalarm{position: absolute;
+    top: 42%;
+    left:53%;
+    height: 200px;
+   max-width:300px;}
+
+   
+
+.alarm{height: 200px;
+max-width: 500px;
+position: absolute;
+top: 54%;
+left: 48.5%;
+margin-top: 10px;}
+
+
+.divpercentage{
+    position: absolute;
+    top: 73%;
+    right:10%;
+    height: 200px;
+   max-width:200px
+}
+
+
+.percentage{height: 200px;
+    max-width: 400px;
+    position: absolute;
+top: 86%;
+    right: 7%;
+padding: 10px;}
+
+
+
+.divwhy{
+    position: absolute;
+    bottom: 11%;
+    left:10%;
+    height: 350px;
+   max-width:350px;
+z-index: -3;
+}
+
+.why{height: 200px;
+    max-width: 380px;
+    position: absolute;
+bottom:12%;
+    left: 14%;
+padding: 20x;}
+
+ .h3,.h6{color: white;}
+
+.h3{font-size: 40px;}
+
+
+
+ .sec3{height:900px;
+    max-width: 100%;
+display: flex;
+position: relative;}
+
+.divgirl{height: 350px;
+width: 350px;
+position: absolute;
+top: 20%;
+left: 10%;}
+
+
+.divmath{height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 20%;
+    right: 7%;}
+
+
+    
+.orgboy{height: 750px;
+width: 700px;
+position: absolute;
+top: 1%;
+left: 40%;
+}
+
+
+.icons{font-size: 40px;
+color: rgb(160, 158, 158);
+position: absolute;
+top:62% ;
+left: 0%;
+display: flex;
+justify-content: space-between;
+width: 600px;}
+
+
+.boy{position: absolute;
+top: 70%;
+right: 24%;}
+
+#hh2{
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+}
+
+.lastback{position: absolute;
+height: 650px;
+width:99.9%;
+object-fit: cover;
+top: 20%;
+z-index: -3;
+bottom: 0;
+}
+
+.sect4{height: 700px;
+width: 100%;
+position: relative;
+display: flex;
+margin: 0;
+padding: 0;
+display: flex;
+align-items: flex-end;
+}
+
+.people{height: 650px;
+width: 1000px;
+position: absolute;
+top: 20%;
+right: 6%;
+bottom: 1px;}
+
+
+.foot{display: flex;
+    align-items: flex-end;
+flex-direction: row;
+    justify-content: space-around;
+height: 100px;
+max-width: 800px;
+position: absolute;
+bottom: 1px;
+left: 120px;
+}
+
+
+
+.bb{text-decoration: none;
+font-size: 25px;
+padding: 2px;
+margin-right: 40px;
+color: white;}
+
+
+.face{width: 30px;
+height: 30px;
+position: absolute;
+top: 75%;
+left: 10%;}
+
+.whats{width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 75%;
+    left: 12%;}
+    
+.insta{width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 75%;
+    left: 15%;}
+    
+
+.orgmedia{display: flex;
+width: 200px;
+height: 100px;
+justify-content: space-between;
+position: absolute;
+bottom: 20px;
+left: 5%;
+padding: 20px;
+color: white;
+font-size: 35px;
+flex-direction: row-reverse;}
+
+
+.applications{display: flex;
+height: 100px;
+width: 300px;
+align-items: center;
+justify-content: space-between;
+margin-left: 100px;
+position: relative;
+margin-bottom: 8%;
+flex-direction: row-reverse;}
+
+.play{height: 30px;
+width: 30px;
+position: absolute;
+}
+
+.apple{height: 30px;
+    width: 28px;
+    position: absolute;
+    }
+
+.divface{background-color: white;
+border-radius: 15px;
+height: 65px;
+ width: 130px;
+padding: 12px;}
+
+.divapple{
+    background-color: white;
+border-radius: 15px;
+height: 65px;
+width: 130px;
+padding: 10px;
+margin-right: 10px;}
+
+.hh6{text-align: right;
+color: rgb(173, 172, 172);}
+
+.pp6{text-align: right;
+color: rgb(124, 120, 120);}
+
+
+
+
+
